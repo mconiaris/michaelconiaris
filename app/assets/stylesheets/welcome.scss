@@ -4,6 +4,7 @@
 
 nav.navbar {
   margin-bottom: 0px;
+  background-color: gray;
 }
 
 body {
@@ -17,6 +18,8 @@ picture#index-photo img {
 }
 
 footer {
+  background-color: gray;
+  color: black;
   text-align: center;
-  margin-top: 5px;
+  padding: 15px;
 }
