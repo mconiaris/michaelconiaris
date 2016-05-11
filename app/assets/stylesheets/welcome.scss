@@ -4,10 +4,12 @@
 
 $outside-background: #bfbfbf;
 $outside-text: black;
+$outside-border: 1px solid black;
 
 nav.navbar {
   margin-bottom: 0px;
   background-color: $outside-background;
+  border: $outside-border;
 }
 
 div.navbar-header a.navbar-brand {
@@ -26,6 +28,7 @@ picture#index-photo img {
 
 footer {
   background-color: $outside-background;
+  border: $outside-border;
   color: $outside-text;
   text-align: center;
   padding: 15px;
