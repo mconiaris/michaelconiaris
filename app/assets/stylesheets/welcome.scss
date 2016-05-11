@@ -2,11 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$outside-color: gray;
+$outside-background: #bfbfbf;
+$outside-text: black;
 
 nav.navbar {
   margin-bottom: 0px;
-  background-color: $outside-color;
+  background-color: $outside-background;
+}
+
+div.navbar-header a.navbar-brand {
+  color: $outside-text;
 }
 
 body {
@@ -20,8 +25,8 @@ picture#index-photo img {
 }
 
 footer {
-  background-color: $outside-color;
-  color: black;
+  background-color: $outside-background;
+  color: $outside-text;
   text-align: center;
   padding: 15px;
 }
