@@ -2,9 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$outside-color: gray;
+
 nav.navbar {
   margin-bottom: 0px;
-  background-color: gray;
+  background-color: $outside-color;
 }
 
 body {
@@ -18,7 +20,7 @@ picture#index-photo img {
 }
 
 footer {
-  background-color: gray;
+  background-color: $outside-color;
   color: black;
   text-align: center;
   padding: 15px;
