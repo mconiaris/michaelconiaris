@@ -2,7 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+nav.navbar {
+  margin-bottom: 0px;
+}
+
 body {
   background-color: black;
   color: white;
+}
+
+picture#index-photo img {
+  height: 100%;
+  width: 100%;
 }
