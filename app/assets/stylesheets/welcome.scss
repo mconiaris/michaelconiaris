@@ -5,6 +5,7 @@
 $outside-background: #bfbfbf;
 $outside-text: black;
 $outside-border: 1px solid black;
+$URL-color: #99ccff;
 
 nav.navbar {
   margin-bottom: 0px;
@@ -33,7 +34,7 @@ div#contact {
 }
 
 div#contact.container p a {
-  color: #99ccff;
+  color: $URL-color;
 }
 
 
