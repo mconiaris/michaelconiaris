@@ -32,6 +32,12 @@ div#contact {
   text-align: center;
 }
 
+div#contact.container p a {
+  color: #99ccff;
+}
+
+
+/*Footer*/
 footer {
   background-color: $outside-background;
   border: $outside-border;
