@@ -5,6 +5,7 @@
 $outside-background: #bfbfbf;
 $outside-text: black;
 $outside-border: 1px solid black;
+$subheader-color: #b3b3b3;
 $URL-color: #99ccff;
 
 nav.navbar {
@@ -31,6 +32,11 @@ picture#index-photo img {
 /*Contact Page*/
 div#contact {
   text-align: center;
+}
+
+div#contact.container h2 {
+  margin-bottom: 20px;
+  color: $subheader-color;
 }
 
 div#contact.container p a {
