@@ -28,6 +28,16 @@ picture#index-photo img {
   width: 100%;
 }
 
+/*About Page*/
+div#about {
+  text-align: center;
+}
+
+div#about.container h2 {
+  margin-bottom: 20px;
+  color: $subheader-color;
+}
+
 
 /*Contact Page*/
 div#contact {
