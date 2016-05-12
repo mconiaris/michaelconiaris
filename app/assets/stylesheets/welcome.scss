@@ -31,11 +31,17 @@ picture#index-photo img {
 /*About Page*/
 div#about {
   text-align: center;
+  margin-left: 9em;
+  margin-right: 9em;
 }
 
 div#about.container h2 {
   margin-bottom: 20px;
   color: $subheader-color;
+}
+
+div#about.container p a {
+  color: $URL-color;
 }
 
 
