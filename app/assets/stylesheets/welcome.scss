@@ -81,3 +81,22 @@ footer {
   text-align: center;
   padding: 15px;
 }
+
+
+/* Small devices (tablets, 576px and up) */
+@media (min-width: $screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 720px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 940px and up) */
+@media (min-width: $screen-lg-min) {
+
+  body {
+    background-color: red;
+  }
+}
