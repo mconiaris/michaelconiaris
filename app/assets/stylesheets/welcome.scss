@@ -97,6 +97,12 @@ footer {
 @media (min-width: $screen-lg-min) {
 
   body {
-    background-color: red;
+    margin-left: 30em;
+    margin-right: 30em;
+  }
+
+  picture#index-photo img {
+    height: auto;
+    width: auto;
   }
 }
