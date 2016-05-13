@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/*Screen Sizes*/
+
+$screen-lg-min: 940px;
+$screen-md-min: 720px;
+$screen-sm-min: 576px;
+
+/*Colors and Backgrounds*/
 $outside-background: #bfbfbf;
 $outside-text: black;
 $outside-border: 1px solid black;
@@ -39,8 +46,6 @@ picture#index-photo img {
 /*About Page*/
 div#about {
   text-align: center;
-  margin-left: 9em;
-  margin-right: 9em;
 }
 
 div#about.container h2 {
