@@ -70,6 +70,13 @@ picture#index-photo img {
   width: 100%;
 }
 
+/*Carousel*/
+div.carousel-caption {
+  color: $subheader-color;
+  font-family: $navigation-font;
+  font-size: 55px;
+}
+
 
 /*About Page*/
 div#about.container {
