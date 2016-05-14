@@ -29,6 +29,10 @@ nav.navbar {
   border: $outside-border;
 }
 
+div.navbar-header {
+  font-family: sans-serif;
+}
+
 div.navbar-header a.navbar-brand {
   color: $outside-text;
 }
@@ -36,13 +40,6 @@ div.navbar-header a.navbar-brand {
 body {
   background-color: black;
   color: white;
-}
-
-body p {
-  font-family: monospace;
-}
-
-body h5 {
   font-family: monospace;
 }
 
