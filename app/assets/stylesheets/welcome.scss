@@ -15,6 +15,9 @@ $outside-border: 1px solid black;
 $subheader-color: #b3b3b3;
 $URL-color: #99ccff;
 
+/*Fonts*/
+$navigation-font: sans-serif;
+
 div.container {
     width: 51em;
     margin-left: auto;
@@ -30,7 +33,11 @@ nav.navbar {
 }
 
 div.navbar-header {
-  font-family: sans-serif;
+  font-family: $navigation-font;
+}
+
+ul.nav.navbar-nav {
+  font-family: $navigation-font;
 }
 
 div.navbar-header a.navbar-brand {
