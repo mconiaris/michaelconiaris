@@ -72,13 +72,18 @@ picture#index-photo img {
 
 
 /*About Page*/
-div#about {
+div#about.container {
   text-align: center;
 }
 
 div#about.container h2 {
   margin-bottom: 20px;
   color: $subheader-color;
+}
+
+div#about.container p {
+  margin-left: 6em;
+  margin-right: 6em;
 }
 
 div#about.container p a {
