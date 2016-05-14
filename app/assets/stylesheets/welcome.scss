@@ -108,9 +108,17 @@ div#contact.container p a {
 }
 
 
-/*Contact Page*/
+/*Photos Page*/
 div#photos {
   text-align: center;
+}
+
+div#item {
+  font-size: 10px;
+}
+
+div.carousel-inner {
+  display: grid;
 }
 
 
