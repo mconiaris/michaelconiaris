@@ -29,12 +29,17 @@ Website Consistent Styling
 
 /*Container Styling*/
 div.container {
-    width: 51em;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+  width: 51em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+h2.subheader {
+  margin-bottom: 20px;
+  color: $subheader-color;
+}
 
 /*Navbar*/
 nav.navbar {
@@ -83,11 +88,6 @@ div#about.container {
   text-align: center;
 }
 
-div#about.container h2 {
-  margin-bottom: 20px;
-  color: $subheader-color;
-}
-
 div#about.container p {
   margin-left: 6em;
   margin-right: 6em;
@@ -103,13 +103,19 @@ div#contact {
   text-align: center;
 }
 
-div#contact.container h2 {
-  margin-bottom: 20px;
-  color: $subheader-color;
-}
-
 div#contact.container p a {
   color: $URL-color;
+}
+
+
+/*Websites Page*/
+div#websites {
+  text-align: center;
+}
+
+picture.website-photos img {
+  width: 80%;
+  margin-bottom: 15px;
 }
 
 
