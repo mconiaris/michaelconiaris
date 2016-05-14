@@ -8,6 +8,9 @@ class WelcomeController < ApplicationController
   def contact
   end
 
+  def photos
+  end
+
   def websites
   end
 end

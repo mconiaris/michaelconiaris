@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   # Contact Route
   get "/contact" => "welcome#contact"
 
+  # Photos Route
+  get "/photos" => "welcome#photos"
+
   # Websites Route
   get "/websites" => "welcome#websites"
 
