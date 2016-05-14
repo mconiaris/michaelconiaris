@@ -117,8 +117,8 @@ div#item {
   font-size: 10px;
 }
 
-div.carousel-inner {
-  display: grid;
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
 
 
