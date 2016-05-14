@@ -28,6 +28,13 @@ RSpec.describe WelcomeController, type: :controller do
     end
   end
 
+  describe "GET #photos" do
+    it "renders the photos template" do
+      get :photos
+      expect(response).to render_template("photos")
+    end
+  end
+
   describe "GET #websites" do
     it "renders the websites template" do
       get :websites
