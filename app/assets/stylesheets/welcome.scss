@@ -173,4 +173,8 @@ Screen Size Specific Styling
 /* Large devices (large desktops, 940px and up) */
 @media (min-width: $screen-lg-min) {
 
+  div.website-info {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 }
