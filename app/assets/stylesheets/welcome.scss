@@ -164,6 +164,7 @@ Screen Size Specific Styling
 /* Small devices (tablets, 576px and up) */
 @media (min-width: $screen-xs-min) {
 
+  /*Device-Wide Styling*/
   div.container {
     width: 100%;
   }
