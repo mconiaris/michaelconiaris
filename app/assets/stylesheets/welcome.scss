@@ -167,6 +167,11 @@ Screen Size Specific Styling
   div.container {
     width: 100%;
   }
+
+  /*Index Page*/
+  div#index-caption.carousel-caption {
+    font-size: 1em;
+  }
 }
 
 /* Small devices (tablets, 576px and up) */
