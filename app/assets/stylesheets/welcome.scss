@@ -61,6 +61,11 @@ div.navbar-header a.navbar-brand {
   color: $outside-text;
 }
 
+/*Need to fix the hover color issue. This isn't working.*/
+li.active a:hover {
+  /*background-color: red;*/
+}
+
 
 /*Body*/
 body {
