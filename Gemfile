@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
+# Use puma as a Web server instead of Webrick to support multithreading
+gem 'puma'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use Bootstrap for styling

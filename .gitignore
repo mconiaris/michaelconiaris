@@ -14,3 +14,4 @@
 
 # Ignore all items in notes folder
 /notes/*
+.env
