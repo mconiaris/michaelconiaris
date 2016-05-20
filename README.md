@@ -1,5 +1,6 @@
 #README
 #MichaelConiaris.com
+This app is the personal portfolio Website of Michael Coniaris.
 
 ##App Specs:
 * Ruby version: 2.3.0
