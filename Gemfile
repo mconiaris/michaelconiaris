@@ -56,6 +56,6 @@ group :development do
   # Use rspec for testing
   gem 'rspec-rails', '~> 3.0'
   # Use PRY for debugging
-  gem 'pry-rails'
+  gem 'pry-rails', '~> 0.3.4'
 end
 
