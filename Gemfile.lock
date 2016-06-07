@@ -187,7 +187,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.15)
-  pry-rails
+  pry-rails (~> 0.3.4)
   puma (~> 3.4.0)
   rails (= 4.2.6)
   rails_12factor
