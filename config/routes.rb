@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # Welcome Route
+  # Shorthand for get '/index', to: 'welcome#index'
   get '/index' => "welcome#index"
 
   # About Route
