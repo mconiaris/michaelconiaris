@@ -16,5 +16,3 @@ This app is the personal portfolio Website of Michael Coniaris.
 
 ##How to run the test suite
 This app uses Rspec for its testing suite. Just run ~rake spec~ to run the tests.
-
-Testing Git
