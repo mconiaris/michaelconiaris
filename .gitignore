@@ -11,7 +11,7 @@
 /log/*
 !/log/.keep
 /tmp
-logfile
+/logfile
 
 # Ignore all items in notes folder
 /notes/*
