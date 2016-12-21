@@ -1,3 +1,1 @@
-Test File
-Test merge.
-Testing merge again.
+Testing merges again.
