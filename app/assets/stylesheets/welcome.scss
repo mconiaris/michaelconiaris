@@ -51,15 +51,18 @@ nav.navbar {
 
 div.navbar-header {
   font-family: $navigation-font;
+  a.navbar-brand {
+    color: $outside-text;
+  }
 }
 
 ul.nav.navbar-nav {
   font-family: $navigation-font;
 }
 
-div.navbar-header a.navbar-brand {
+/*div.navbar-header a.navbar-brand {
   color: $outside-text;
-}
+}*/
 
 /*Body*/
 body {
