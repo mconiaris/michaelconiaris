@@ -25,6 +25,11 @@ Rails.application.configure do
   config.serve_static_files = ENV['RAILS_SERVE_STATIC_FILES'].present?
 
 
+  # To load assets to Heroku
+  config.cache_classes = true
+  config.serve_static_assets = true
+  config.assets.compile = true
+  config.assets.digest = true
   
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
