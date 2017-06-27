@@ -2,10 +2,11 @@
 <% description "This is the homepage of Michael Coniaris' portfolio site." %>
 
 <!-- Fefactoring Bootstrap code to use Jumbotron Keyword. -->
+<!-- TODO: Add alt-text to background Baby photo for blind people. -->
 <!-- Jumbotron is placed outside the container class so that it will span to the full width of the view port. -->
 <div class="jumbotron text-center">
-  <a href=""><button type="button" class="btn btn-primary">Web Development</button></a>
-  <a href=""><button type="button" class="btn btn-primary">Photography</button></a>
+  <a href="/websites"><button type="button" class="btn btn-primary">Web Development</button></a>
+  <a href="/photos"><button type="button" class="btn btn-primary">Photography</button></a>
 </div>
 
 <!-- TODO: Change page width to fit into screen size. -->
@@ -15,7 +16,7 @@
         <div class="item active">
         <%= image_tag("baby-sm.jpg", :alt => "Infant Photo") %>
            <div class="carousel-caption" id="index-caption">
-           <a href="/websites">Web Development</a> | <a href="/photos">Photography</a>
+           <a href="">Web Development</a> | <a href="">Photography</a>
            </div>
         </div>
     </div>
