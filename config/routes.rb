@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
 
+  # ActionDispatch::Routing::Mapper
+
+  # The priority is based upon order of creation: first created -> highest priority.
+  # See how all your routes lay out with "rake routes".
+
   # Welcome Route
+  # Shorthand for get '/index', to: 'welcome#index'
   get '/index' => "welcome#index"
 
   # About Route
@@ -14,9 +20,6 @@ Rails.application.routes.draw do
 
   # Websites Route
   get "/websites" => "welcome#websites"
-
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'

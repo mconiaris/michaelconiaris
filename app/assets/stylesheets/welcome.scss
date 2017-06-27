@@ -30,7 +30,7 @@ Website Consistent Styling
 
 /*Container Styling*/
 div.container {
-  width: 51em;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0px;
@@ -51,15 +51,15 @@ nav.navbar {
 
 div.navbar-header {
   font-family: $navigation-font;
+  a.navbar-brand {
+    color: $outside-text;
+  }
 }
 
 ul.nav.navbar-nav {
   font-family: $navigation-font;
 }
 
-div.navbar-header a.navbar-brand {
-  color: $outside-text;
-}
 
 /*Body*/
 body {
@@ -70,10 +70,17 @@ body {
 
 
 /*Index Page*/
-#index-photo div div img {
-  height: 100%;
-  width: 100%;
+#index-photo {
+  div {
+    div {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
 }
+
 
 /*Carousel*/
 div#index-caption.carousel-caption {
@@ -117,6 +124,11 @@ div#item {
   font-size: 10px;
 }
 
+/* > is the child combinator, sometimes mistakenly called 
+the direct descendant combinator.That means the selector 
+v > p.some_class only selects paragraphs of .some_class 
+at are nested directly inside a div, and not any 
+paragraphs that are nested further within.*/
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
@@ -135,7 +147,7 @@ div#websites {
 }
 
 picture.website-photos img {
-  width: 80%;
+  width: 60%;
   margin-bottom: 15px;
 }
 
@@ -153,6 +165,8 @@ footer {
   color: $outside-text;
   text-align: center;
   padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -191,7 +205,7 @@ Screen Size Specific Styling
 @media (min-width: $screen-md-min) {
   /*Container Styling*/
   div.container {
-    width: 51em;
+    width: 100%;
   }
 }
 
