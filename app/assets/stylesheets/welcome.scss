@@ -70,10 +70,17 @@ body {
 
 
 /*Index Page*/
-#index-photo div div img {
-  height: 100%;
-  width: 100%;
+#index-photo {
+  div {
+    div {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
 }
+
 
 /*Carousel*/
 div#index-caption.carousel-caption {
