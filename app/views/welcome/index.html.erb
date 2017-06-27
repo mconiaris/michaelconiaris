@@ -1,18 +1,10 @@
 <% render_title "| Home" %>
 <% description "This is the homepage of Michael Coniaris' portfolio site." %>
 
-<!-- TODO: Change page width to fit into screen size. -->
-<div id="container">
-  <picture id="index-photo" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="item active">
-        <%= image_tag("baby-sm.jpg", :alt => "Infant Photo") %>
-           <div class="carousel-caption" id="index-caption">
-           <a href="/websites">Web Development</a> | <a href="/photos">Photography</a>
-           </div>
-        </div>
-    </div>
-  </div>
+<!-- Fefactoring Bootstrap code to use Jumbotron Keyword. -->
+<!-- TODO: Add alt-text to background Baby photo for blind people. -->
+<!-- Jumbotron is placed outside the container class so that it will span to the full width of the view port. -->
+<div class="jumbotron text-center">
+  <a href="/websites"><button type="button" class="btn btn-outline-primary">Web Development</button></a>
+  <a href="/photos"><button type="button" class="btn btn-outline-primary">Photography</button></a>
 </div>
-
-
