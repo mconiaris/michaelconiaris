@@ -16,6 +16,3 @@
 # Ignore all items in notes folder
 /notes/*
 .env
-
-# Ignore SSL folder
-/ssl/*
