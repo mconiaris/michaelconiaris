@@ -124,6 +124,11 @@ div#item {
   font-size: 10px;
 }
 
+/* > is the child combinator, sometimes mistakenly called 
+the direct descendant combinator.That means the selector 
+v > p.some_class only selects paragraphs of .some_class 
+at are nested directly inside a div, and not any 
+paragraphs that are nested further within.*/
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
