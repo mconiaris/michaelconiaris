@@ -4,13 +4,16 @@
 <!-- Fefactoring Bootstrap code to use Jumbotron Keyword. -->
 <div class="container">
   <div class="jumbotron">
-    <h1 class="display-3">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+    <picture id="index-photo" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+        <%= image_tag("baby-sm.jpg", :alt => "Infant Photo") %>
+           <div class="carousel-caption" id="index-caption">
+           <a href="/websites">Web Development</a> | <a href="/photos">Photography</a>
+           </div>
+        </div>
+    </div>
+  </div>
   </div>
 </div>
 
