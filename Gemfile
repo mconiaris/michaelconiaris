@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
+# "~> 4.0.x" will tell bundler to load any gem 
+# that varies with the last (minor) number.
+
 # Set Ruby Version
-ruby '2.3.0'
+ruby '~> 2.3.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use puma as a Web server instead of Webrick to support multithreading
